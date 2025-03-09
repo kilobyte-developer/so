@@ -29,8 +29,7 @@ int main() {
     printf("Enter Starting Head Position: ");
     scanf("%d",&head);
 
-    int n = sizeof(requests) / sizeof(requests[0]);
-
+    int n = nr;
     FCFS(requests, n, head);
     return 0;
 }
